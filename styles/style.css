@@ -1,5 +1,9 @@
 @import url("reset.css");
 
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
 /* standard classes */
 .link-style{
   text-decoration: none;
@@ -23,24 +27,25 @@
 .social-buttons {
   color: white;
   background-color: #376A92;
-  padding: 10px;
+  padding:5px 10px;
   border: 1px solid rgb(60, 104, 145);
   border-radius: 5px;
-}
-
-body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 /* navigation bar */
 nav{
     position: fixed;
     display: flex;
+    background-color: white;
     justify-content: space-between;
     width: 100%;
     height: 36px;
     box-sizing: border-box;
     padding: 4px 15px 2px;
+    border-bottom: 1px solid #e2e2e2;
+    z-index: 1;
 }
 
 .nav-left a {
@@ -68,18 +73,36 @@ nav{
 
 /* main content */
 .container {
-  position: relative;
-  top: 80px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+    position: relative;
+    padding-top: 60px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.content {
-  
+.title{
+    font-size: 2.3rem;
+    line-height: 3rem;
+    width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: 700;
+    color: #121212;
+    padding-bottom: 40px;
 }
 
-.content img {
-  margin-top: 30px;
-  width: 1200px;
+.img-title img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-title p {
+    max-width: 900px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666666;
+}
+
+.img-title p span {
+    font-size: 13px;
+    color: #888888;
 }
