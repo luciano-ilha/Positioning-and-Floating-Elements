@@ -2,6 +2,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
   }
   
 /* standard classes */
@@ -73,10 +74,11 @@ nav{
 
 /* main content */
 .container {
-    position: relative;
-    padding-top: 60px;
-    width: 1200px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding:5em 200px;
+  box-sizing: border-box;
 }
 
 .title{
@@ -105,4 +107,41 @@ nav{
 .img-title p span {
     font-size: 13px;
     color: #888888;
+}
+article{
+  width: 600px;
+  justify-self: center;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+article h1 {
+  font-size: 15px;
+  font-family:Helvetica,Arial, sans-serif;
+  font-weight: 700;
+}
+
+.date-social-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.social-icon-group{
+  width: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.social-icon{
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  padding: 5px;
+
+ 
+}
+.icon-img{
+  width: 6.5px;
+  height: 14.2px;
+  text-align: center;
 }
