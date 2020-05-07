@@ -176,7 +176,11 @@ article h1 {
   width: 14.06px;
   height: 11.87px;
 }
-
+.bookmark-icon {
+stroke: none;
+    width: 16px;
+    height: 25px;
+  }
 /*   ---    mindle img  ------     */
 .mdl-img-title {
   margin: 0 auto;
@@ -256,6 +260,17 @@ letter-spacing: .05em;
   grid-template-rows: 1fr 1fr;
   grid-gap: 15px;
 }
+
+.second-section-title{
+  grid-column: 1/4;
+  border-top: 1px solid black;
+}
+.left-bottom-grid span:last-child{
+  grid-column: 1/4;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 
 .left-bottom-grid img {
   width: 100%;
