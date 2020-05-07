@@ -68,6 +68,7 @@ nav{
 }
 .main-logo {
     width: 195px;
+    height: 26.49px;
 }
 
 .nav-right button {
@@ -104,6 +105,7 @@ figcaption {
     font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666666;
+    padding-bottom: 20px;
 }
 
 figcaption  span {
@@ -168,15 +170,50 @@ article h1 {
   height: 11.87px;
 }
 
-/*       mindle img       */
+/*   ---    mindle img  ------     */
 .mdl-img-content{
   display: grid;
   justify-content: center;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 .mdl-img-content img{
   max-width: 90%;
   justify-self: center;
 }
+
+.mdl-grid{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  /* grid-column-gap: 5px; */
+ align-items: flex-end;
+
+}
+.mdl-text-img{
+  align-self: baseline;
+}
+.mdl-grid p{
+  font-size: 14px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .05em;
+  font-weight: 100;
+  color: #000000;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-bottom: 0;
+ padding-right: 20px;
+ padding-top: 20em;
+}
+.mdl-text-img span{
+font-size: 11px;
+font-weight: bold;
+letter-spacing: .05em;
+}
+
 
 .bottom-content {
   display: grid;
