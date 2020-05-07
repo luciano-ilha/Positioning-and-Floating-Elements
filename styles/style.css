@@ -177,3 +177,44 @@ article h1 {
   max-width: 90%;
   justify-self: center;
 }
+
+.bottom-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-gap:30px;
+  width: 65%;
+  margin: 0 auto;
+
+}
+
+.left-bottom-content {
+  border-top: 1px solid black;
+}
+
+.left-bottom-content h2 {
+  font-size: 15px;
+  font-family:Helvetica,Arial, sans-serif;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.left-bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.left-bottom-grid img {
+  width: 100%;
+}
+
+.item1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.right-bottom-content {
+  background-color: turquoise;
+}
