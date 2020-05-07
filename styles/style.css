@@ -10,7 +10,9 @@ body {
   text-decoration: none;
   color: black;
 }
-
+p{
+  margin-bottom: 20px;
+}
 .touppercase{
   text-transform: uppercase;
 }
@@ -75,9 +77,9 @@ nav{
 /* main content */
 .container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 90%;
   justify-content: center;
-  padding:5em 200px;
+  padding:5em 0;
   box-sizing: border-box;
 }
 
@@ -97,14 +99,14 @@ nav{
     max-height: 100%;
 }
 
-.img-title p {
+figcaption {
     max-width: 900px;
     font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666666;
 }
 
-.img-title p span {
+figcaption  span {
     font-size: 13px;
     color: #888888;
 }
@@ -164,4 +166,14 @@ article h1 {
 .share-icon {
   width: 14.06px;
   height: 11.87px;
+}
+
+/*       mindle img       */
+.mdl-img-content{
+  display: grid;
+  justify-content: center;
+}
+.mdl-img-content img{
+  max-width: 90%;
+  justify-self: center;
 }
