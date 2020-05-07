@@ -10,7 +10,8 @@ body {
   text-decoration: none;
   color: black;
 }
-p{
+
+p {
   margin-bottom: 20px;
 }
 .touppercase{
@@ -25,6 +26,12 @@ p{
 
 .underline-hover:hover {
   text-decoration: underline;
+}
+
+.strong-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .social-buttons {
@@ -171,16 +178,25 @@ article h1 {
 }
 
 /*   ---    mindle img  ------     */
+.mdl-img-title {
+  margin: 0 auto;
+  width: 945px;
+}
+
+.mdl-img-title h1 {
+  margin-bottom: 8px;
+}
+
 .mdl-img-content{
   display: grid;
   justify-content: center;
-  width: 90%;
+  width: 945px;
   position: relative;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .mdl-img-content img{
-  max-width: 90%;
+  max-width: 100%;
   justify-self: center;
 }
 
@@ -189,24 +205,22 @@ article h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 300px 300px;
-  /* grid-column-gap: 5px; */
- align-items: flex-end;
-
+  align-items: flex-end;
+  width: 945px;
+  top: 140px;
 }
 .mdl-text-img{
   align-self: baseline;
 }
-.mdl-grid p{
+.mdl-grid p {
   font-size: 14px;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: .05em;
   font-weight: 100;
   color: #000000;
- font-family: Arial, Helvetica, sans-serif;
- margin-bottom: 0;
- padding-right: 20px;
- padding-top: 20em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
 }
 .mdl-text-img span{
 font-size: 11px;
@@ -253,5 +267,31 @@ letter-spacing: .05em;
 }
 
 .right-bottom-content {
-  background-color: turquoise;
+  border-top: 1px solid black;
+}
+
+.right-bottom-title {
+  font-size: 15px;
+  font-family:Helvetica,Arial, sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.right-bottom-links {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+}
+
+.right-bottom-links h2 {
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.43rem;
+  font-weight: 500;
+  padding: 15px 0;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.right-bottom-links:hover {
+  color: #888888;
 }
