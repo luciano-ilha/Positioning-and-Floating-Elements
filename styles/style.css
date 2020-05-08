@@ -375,11 +375,11 @@ letter-spacing: .05em;
   margin: 0 auto;
   align-items: flex-start;
 }
-.interests-footer header{
+.interests-footer .header{
   margin-top: 10px;
   grid-column: 1 /-1;
 }
-.interests-footer header img {
+.interests-footer .header img {
   display: block;
   width: 195px;
   height: 26px;
