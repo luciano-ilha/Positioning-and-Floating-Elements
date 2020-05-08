@@ -240,7 +240,7 @@ letter-spacing: .05em;
   grid-gap:30px;
   width: 65%;
   margin: 0 auto;
-
+ padding-bottom: 50px;
 }
 
 .left-bottom-content {
@@ -309,4 +309,39 @@ letter-spacing: .05em;
 
 .right-bottom-links:hover {
   color: #888888;
+}
+
+.interests-footer::before {
+ 
+  background-color: $white;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  height: 1px;
+  margin-top: 0;
+}
+
+.interests-footer{
+  padding: 20px 0 ;
+  max-width:1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+.interests-footer header{
+  margin-top: 10px;
+  grid-column: 1 /-1;
+}
+.interests-footer header img {
+  display: block;
+  width: 195px;
+  height: 26px;
+}
+
+.footer-interests{
+ display: grid;
+}
+.footer-interests a{
+  padding-top: 10px;
 }
