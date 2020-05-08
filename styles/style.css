@@ -69,7 +69,24 @@ nav {
 .nav-left a {
   font-size: 14px;
   font-weight: bolder;
-  font-family: Helvetica, Arial;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer-interests a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  display: block;
+}
+
+.subscribe-interests a {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.bottom-interests a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
 }
 
 .nav-left a:nth-child(3) {
@@ -262,7 +279,6 @@ strong {
 
 .mdl-grid p {
   font-size: 14px;
-  font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.05em;
   font-weight: 100;
@@ -398,13 +414,6 @@ strong {
   margin-bottom: 8px;
 }
 
-.footer-interests a {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  padding-top: 10px;
-  display: block;
-}
-
 .footer-interests:last-child {
   border-left: 1px solid gray;
   display: grid;
@@ -436,18 +445,8 @@ strong {
   padding: 10px 0;
 }
 
-.subscribe-interests a {
-  font-size: 16px;
-  font-weight: 700;
-}
-
 .subscribe-interests a:last-child {
   margin-bottom: 20px;
-}
-
-.bottom-interests a {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 11px;
 }
 
 .img1-footer {

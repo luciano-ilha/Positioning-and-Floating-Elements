@@ -2,7 +2,7 @@
 Microverse 3d Project
 
 
-![Image description](https://raw.githubusercontent.com/vmwhoami/HTML-Forms/working-branch/resources/screenshot.png)
+![Image description](https://raw.githubusercontent.com/luciano-ilha/Positioning-and-Floating-Elements/feature/assets/Screenshot.png)
 
 
 
@@ -12,7 +12,7 @@ Microverse 3d Project
 
 
 # Live Demo #
-[live demo](https://stoic-brown-66eb99.netlify.app/)
+[live demo](https://raw.githack.com/luciano-ilha/Positioning-and-Floating-Elements/feature/index.html)
 
 
  # Prerequisites #
