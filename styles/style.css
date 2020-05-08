@@ -230,6 +230,7 @@ strong {
   position: relative;
   border: 1px solid #888888;
   border-radius: 5px;
+  cursor: pointer;
 }
 .comments-icon{
   font-size: 12px;
