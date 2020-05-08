@@ -89,6 +89,7 @@ nav{
   margin: 0 5px;
 }
 
+
 /* main content */
 .container {
   display: grid;
@@ -163,6 +164,11 @@ article h1 {
   border-radius: 50%;
   padding: 5px;
 }
+.social-icon:hover{
+  border: 1px solid #cccccc;
+  background-color: white;
+  cursor: pointer;
+}
 
 .facebook-icon {
   width: 6.5px;
@@ -188,6 +194,10 @@ stroke: none;
     width: 16px;
     height: 25px;
   }
+  .bookmark-icon:hover{
+    opacity: .5;
+    cursor: pointer;
+  }
 /*   ---    mindle img  ------     */
 .mdl-img-title {
   margin: 0 auto;
@@ -204,18 +214,30 @@ stroke: none;
   width: 945px;
   position: relative;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 .mdl-img-content img{
   max-width: 100%;
   justify-self: center;
+}
+.mdl-grid::after{
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+
+}
+.mdl-img-content footer{
+  margin-top: 50px;
 }
 
 .mdl-grid{
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 300px 170px;
   align-items: flex-end;
   width: 945px;
   top: 140px;
@@ -324,7 +346,7 @@ letter-spacing: .05em;
 
 .interests-footer::before {
  
-  background-color: $white;
+  background-color: white;
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
   content: '';
