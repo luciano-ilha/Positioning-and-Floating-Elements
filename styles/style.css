@@ -226,39 +226,44 @@ strong {
   opacity: 0.5;
   cursor: pointer;
 }
-.comment-cont{
+
+.comment-cont {
   position: relative;
-  border: 1px solid #888888;
+  border: 1px solid #888;
   border-radius: 5px;
   cursor: pointer;
 }
-.comments-icon{
+
+.comments-icon {
   font-size: 12px;
-  font-family:Helvetica, Arial,  sans-serif;
-  padding: 0 10px ;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0 10px;
 }
-.comments-icon::before{
-    bottom: -6px;
-    content: "";
-    display: block;
-    left: 15px;
-    position: absolute;
-    width: 0;
-    border-color: #888888 transparent;
-    border-style: solid;
-    border-width: 6px 0px 0px 8px
-  }
-  .comments-icon::after{
+
+.comments-icon::before {
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0;
+  border-color: #888 transparent;
+  border-style: solid;
+  border-width: 6px 0 0 8px;
+}
+
+.comments-icon::after {
   bottom: -6px;
   content: "";
   display: block;
   left: 16px;
   position: absolute;
-  width: 0px;
-  border-color: #ffffff transparent;
+  width: 0;
+  border-color: #fff transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px; 
-  }
+  border-width: 6px 0 0 6px;
+}
+
 /* ----------------middle img------------------ */
 .mdl-img-title {
   margin: 0 auto;
@@ -362,6 +367,13 @@ strong {
 .second-section-title {
   grid-column: 1/4;
   border-top: 1px solid black;
+}
+
+.fixed-footer span {
+  font-weight: bolder;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #000;
 }
 
 .left-bottom-grid span:last-child {
@@ -505,6 +517,7 @@ strong {
   height: 10.52px;
   padding-right: 10px;
 }
+
 /* fixed footer styles */
 
 .fixed-footer {
@@ -519,21 +532,29 @@ strong {
   justify-content: center;
   align-items: center;
 }
-.fixed-footer p{
-  font-family: Helvetica, Arial, sans-serif;  
-  margin-bottom: 0px;
+
+.fixed-footer p {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
 }
-.fixed-footer div:first-child{
+
+.fixed-footer div:first-child {
   justify-self: center;
 }
-.fixed-footer div:last-child{
+
+.fixed-footer div:last-child {
   position: absolute;
   right: 100px;
+  display: flex;
+  align-items: center;
 }
-.fixed-footer span{
-  font-weight: bolder;
-  font-family: Helvetica, Arial, sans-serif;  
-  font-size: 15px;
-  color: #000;
-  
+
+.svg-span {
+  padding-left: 55px;
+  padding-bottom: 0;
+  line-height: 0px;
+}
+
+.svg {
+  transform: rotate(-90deg);
 }
