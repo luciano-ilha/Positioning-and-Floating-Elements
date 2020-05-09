@@ -148,14 +148,14 @@ span span {
   color: #888;
 }
 
-.article {
+article {
   width: 600px;
   justify-self: center;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-section h1 {
+section h2 {
   font-size: 15px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -272,7 +272,7 @@ strong {
   width: 945px;
 }
 
-.mdl-img-title h1 {
+.mdl-img-title h2 {
   margin-bottom: 8px;
 }
 
