@@ -6,8 +6,6 @@
 
 ![Image description](https://raw.githubusercontent.com/luciano-ilha/Positioning-and-Floating-Elements/feature/assets/Screenshot.png)
 
-This project covers the following HTML and CSS3 concepts
-
 
 # Built With #
 
