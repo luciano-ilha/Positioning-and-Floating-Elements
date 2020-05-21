@@ -1,15 +1,19 @@
 # Positioning-and-Floating-Elements
-Microverse 3d Project
+
+> On this project, we have made a clone of the NY Times page, with a fixed navigation bar, main content, a video and some images in the middle and a footer with image links to other related news.
+> We gained a deeper understanding of how to position and properly layout elements on the page.
 
 
 ![Image description](https://raw.githubusercontent.com/luciano-ilha/Positioning-and-Floating-Elements/feature/assets/Screenshot.png)
 
+This project covers the following HTML and CSS3 concepts
 
 
-# Built with #
- - HTML5 
-  - CSS3 
+# Built With #
 
+- HTML
+- CSS
+- Google fonts
 
 # Live Demo #
 [live demo](https://raw.githack.com/luciano-ilha/Positioning-and-Floating-Elements/feature/index.html)
@@ -19,7 +23,20 @@ Microverse 3d Project
  All Modern web browsers like:
 - Chrome 
 - Firefox
- - Safari
+- Safari
+
+
+## Getting Started
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ cd <folder>
+```
+
+```
+$ git clone https://github.com/luciano-ilha/Positioning-and-Floating-Elements.git
+```
 
 
 
@@ -38,3 +55,20 @@ Microverse 3d Project
 - [github](https://github.com/vmwhoami)
 - [LinkedIn](https://www.linkedin.com/in/vitalie-melnic-5802198a/)
 - [twitter](https://twitter.com/vmwhoami)
+
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/luciano-ilha/Positioning-and-Floating-Elements/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project originally taken from The Odin Project
+- Project inspired by Microverse Program
