@@ -70,4 +70,4 @@ Give a ⭐️ if you like this project!
 
 - Project originally taken from The Odin Project
 - Project inspired by Microverse Program
-[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
+
